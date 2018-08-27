@@ -1,21 +1,22 @@
 {
-  "name": "LazerTask - Breathe",
-  "version": "1.2",
-  "description": "Match your breathing to the animation.",
-  "browser_action": {
-    "default_popup": "popup.html",
-    "default_icon": {
-      "16": "logo.png",
-      "32": "logo.png",
-      "48": "logo.png",
-      "128": "logo.png"
-    }
-  },
-  "icons": {
-    "16": "logo.png",
-    "32": "logo.png",
-    "48": "logo.png",
-    "128": "logo.png"
-  },
-  "manifest_version": 2
+    "name": "LazerTask - Breathe",
+    "version": "1.4",
+    "description": "Match your breathing to the animation.",
+    "browser_action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "logo.png",
+            "32": "logo.png",
+            "48": "logo.png",
+            "128": "logo.png"
+        }
+    },
+    "icons": {
+        "16": "logo.png",
+        "32": "logo.png",
+        "48": "logo.png",
+        "128": "logo.png"
+    },
+    "manifest_version": 2,
+    "content_security_policy": "script-src 'self' https://use.fontawesome.com/5b14821f05.js; object-src 'self'"
 }
