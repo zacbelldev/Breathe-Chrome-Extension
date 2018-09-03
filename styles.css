@@ -84,6 +84,8 @@ body {
     font-size: 30px;
     font-weight: bold;
     margin: 0;
+    -webkit-transform: translateY(0.2em);
+    transform: translateY(0.2em);
 }
 
 #exhale {
@@ -92,8 +94,8 @@ body {
     font-size: 30px;
     font-weight: bold;
     margin: 0;
-    -webkit-transform: translateY(-1.6em);
-    transform: translateY(-1.6em);
+    -webkit-transform: translateY(-1em);
+    transform: translateY(-1em);
 }
 
 @-webkit-keyframes grow {
